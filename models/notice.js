@@ -18,7 +18,7 @@ module.exports = class Notice extends Sequelize.Model {
             modelName: 'Notice',
             tableName: 'notices',
             charset: 'utf8',
-            collate: 'utf8_genrenal_ci',
+            collate: 'utf8_general_ci',
         })
     }
 
