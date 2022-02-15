@@ -9,3 +9,7 @@ exports.join_route = (req, res, next) => {
 exports.login_route = (req, res,next) => {
     res.render('member/login', { title: '로그인' });
 };
+
+exports.notice_route = (req, res, next) => {
+    res.render('notice/list', { title: '게시판' });
+};

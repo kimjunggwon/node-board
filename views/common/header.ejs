@@ -9,8 +9,10 @@
     <nav>
         <% if(!isAuthenticated){ %>
         <a href="/auth">로그인</a>
+        <a href="/join">회원가입</a>
         <% }else{ %>
         <a href="/logout">로그아웃</a>
+        <a href="">마이페이지</a>
         <% } %>
-        <a href="/join">회원가입</a>
+        <a href="/notice">게시판1</a>
     </nav>

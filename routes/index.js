@@ -10,6 +10,8 @@ router.get('/join', isNotLoggedIn, controller.join_route);
 
 router.get('/auth', controller.login_route);
 
+router.get('/notice', controller.notice_route);
+
 router.get('/logout', isLoggedIn, (req, res) => {
     req.logout();
     req.session.destroy();
